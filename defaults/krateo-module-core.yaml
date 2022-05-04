@@ -7,11 +7,11 @@ spec:
     matchLabels:
       platform: kubernetes
   organization: Krateo PlatformOps Company
-  frontendUrl: http://192.46.238.141
+  frontendUrl: http://192.46.238.64
   frontend:
     service:
       type: LoadBalancer
-  backendUrl: http://172.104.231.212
+  backendUrl: http://172.104.231.64
   backend:
     service:
       type: LoadBalancer
